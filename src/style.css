@@ -34,7 +34,6 @@ Code written by:
 
 body {
     min-height: 100vh;
-    background: url('./images/bg.jpg') center / cover;
     display: flex;
     justify-content: center;
     align-items: center;
