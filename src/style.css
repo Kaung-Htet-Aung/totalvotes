@@ -8,6 +8,7 @@ Code written by:
 
 🌎link: www.youtube.com/codingdesign 
 */
+
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +34,7 @@ Code written by:
 
 body {
     min-height: 100vh;
-    background: url('images/html_table.jpg') center / cover;
+    background: url('./images/bg.jpg') center / cover;
     display: flex;
     justify-content: center;
     align-items: center;
