@@ -69,7 +69,7 @@ const Girl = () => {
               <div style={{ display: 'table-cell' }} className='li'><div><img src={`./images/${candidate.img}`} style={{width:'30px',height:'30px',borderRadius:'50%'}}/></div><div> {candidate.name}</div></div>
               <div style={{ display: 'table-cell' }} className='li'>{candidate.height}</div>
               <div style={{ display: 'table-cell' }} className='li'>section-{candidate.section}</div>
-              <div style={{ display: 'table-cell' }} className={`li`}><p className={`candi-${candidate.candidateId}`}>{candidate.votes*2}</p></div>
+              <div style={{ display: 'table-cell' }} className={`li`}><p className={`candi-${candidate.candidateId}`}>{candidate.votes*3}</p></div>
             </motion.div>
           ))}
         </AnimatePresence>

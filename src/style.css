@@ -37,6 +37,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 main.table {
@@ -101,9 +102,9 @@ main.table {
     background-color: #fffb;
     margin: .8rem auto;
     border-radius: .6rem;
-    overflow: auto;
-    overflow: overlay;
+   
     font-size: 18px;
+    overflow-y: scroll;
 }
 
 
