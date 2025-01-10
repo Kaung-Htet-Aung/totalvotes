@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter,Route,Routes } from "react-router-dom";
-import Boy from "./boy";
+import Boy from "./Boy";
 import Girl from "./Girl";
+
 const App=()=>{
   return(
       <BrowserRouter>
